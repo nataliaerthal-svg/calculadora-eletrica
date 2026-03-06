@@ -4,7 +4,7 @@ let tipoEntrada = (prompt("Digite 1 para Watts e 2 para Kilowatts: "));
 
 let consumoH = Number(prompt("Digite o consumo do aparelho por hora: "));
 let h = Number(prompt("Digite quantas horas por dia o aparelho fica ligado: "));
-let tarifa = 0.9;
+let tarifa = Number(prompt("Digite o número da taxa: "));
 
 let kw
 
